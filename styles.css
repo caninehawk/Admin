@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+.dash{
+    display:grid;
+    grid-template-columns: 20% 80%;
+}
+.left{
+    background-color: #3b82f6;
+    height:100vh;
+    color:white
+}
+.right{
+    height:100vh;
+}
+.heading{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin:20px 30px;
+    font-size: x-large;
+
+}
+.logo{
+    width:30%;
+    height:fit-content;
+}
+.home, .profile, .messages, .tasks, .communities, .history{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: x-large;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin: 10px 20px;
+    padding-left: 25%;
+
+}
+.menu [class*="-logo"] {
+    width: 10%;
+    height:fit-content;
+    padding-right: 10px;
+    
+}
+.right{
+    display:grid;
+    grid-template-rows: 20% 80%;
+}
+.main{
+    background-color: #d4d4d8;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+
+}
+.search-logo, .bell-logo{
+    width: 25px;
+    height:fit-content;
+    padding-right:10px;
+}
+.search-box{
+    width:500px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #d4d4d8;
+    border: 1px solid white;
+    
+}
+.avatar-logo{
+    width: 100px;
+    height: fit-content;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.bell-logo{
+    padding-left: 300px;
+    padding-right: 20px;
+}
+.avatar-name{
+    font-size: xx-large;
+}
